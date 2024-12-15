@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Danylo Lopatin</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div class="body-wrapper">
+        <header class="header">
+            <div id="logo">
+                <img src="images/Logo.png" alt="logo">
+            </div>
+            <button class="burger-btn" id="burger">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="menu">
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-button" href='#about'>About</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href='#skills'>Skills</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href='#contact'>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="greeting" class="main-blocks">
+                <div class="greeting-text">
+                    <p class="hi-font">Hi, I’m Danylo 👋</p>
+                    <p class="profession-font">A Machine Learning Engineer</p>
+                    <p class="hope-font">(in future.. i hope..)</p><br>
+
+                    <div class="about-button-container">
+                        <a class="about-button" href="#about">More about me</a>
+                    </div>
+                </div>
+                <div id="photo">
+                    <img src="images/Photo.png" alt="photo">
+                </div>
+            </div>
+
+            <div id="about" class="main-blocks">
+                <div class="main-blocks-title">
+                    <p>About me</p>
+                </div>
+                <hr>
+                <div class="accordion" id="aboutMeAccordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">Personal Background</div>
+                        <div class="accordion-content">
+                            <p>I'm Danylo Lopatin, originally from Ukraine, currently residing in Valencia, Spain. I'm a second-year student at NAU KhAI, pursuing a degree in Information Systems and Technologies.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">Languages</div>
+                        <div class="accordion-content">
+                            <p>I am fluent in Ukrainian and Russian as native languages. Additionally, I have an Upper Intermediate level in English and an Intermediate level in Spanish.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">Programming Skills</div>
+                        <div class="accordion-content">
+                            <p>I have experience with programming languages such as Java, Rust, and Python. I'm always eager to learn and improve my technical skills.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">Soft Skills</div>
+                        <div class="accordion-content">
+                            <p>I excel in teamwork, problem-solving, and adapting to new challenges. These skills help me collaborate effectively and find creative solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="check-skills">
+                    Check my skills and tools below ↓
+                </p>
+            </div>
+
+            <div id="skills" class="main-blocks">
+                <div class="main-blocks-title">
+                    <p>My Skills and Tools</p>
+                </div>
+                <hr>
+                <div class="skill-container">
+                    <div class="skill-card">
+                        <img src="images/skills/java.svg" alt="Java">
+                        <p>Java</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/python.svg" alt="Python">
+                        <p>Python</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/rust.svg" alt="Rust">
+                        <p>Rust</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/git.svg" alt="Git">
+                        <p>Git</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/figma.svg" alt="Figma">
+                        <p>Figma</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/html.svg" alt="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/css.svg" alt="CSS">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/sass.svg" alt="SASS">
+                        <p>SASS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" class="main-blocks">
+                <div class="main-blocks-title">
+                    <p>Contact me if you need help</p>
+                </div>
+                <hr>
+                <div class="contact-container">
+                    <form id="contact-form" novalidate>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <textarea  id="message" placeholder="Your Message" required></textarea>
+
+                        <p id="form-message"></p>
+
+                        <button type="submit" class="send-message-button">Send Message</button>
+                    </form>
+                    <div class="contact-list">
+                        <a href="mailto:danilofokinn@gmail.com" class="contact-item">
+                            <img src="images/icons/google.svg" alt="email">
+                            <span>danilofokinn@gmail.com</span>
+                        </a>
+
+                        <a href="https://t.me/NooXiii" class="contact-item">
+                            <img src="images/icons/telegram.svg" alt="telegram">
+                            <span>NooXiii</span>
+                        </a>
+
+                        <a href="https://github.com/Danylo37" class="contact-item">
+                            <img src="images/icons/github.svg" alt="github">
+                            <span>Danylo37</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/danil.lopatin.37/" class="contact-item">
+                            <img src="images/icons/instagram.svg" alt="instagram">
+                            <span>danylo.lopatin.37</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="footer-name">© Danylo Lopatin 2024</p>
+            <p>This web page is currently under development and will be improved in the future. I apologize for any issues you may encounter at this time.</p>
+        </footer>
+    </div>
+</body>
+</html>
