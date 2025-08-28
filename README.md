@@ -2,7 +2,7 @@
 
 You can view the website live at: [https://danylo37.github.io/my-website/](https://danylo37.github.io/my-website/)
 
-# About
+## About
 
 A personal portfolio website showcasing my skills, projects, and contact information. This website was created as an assignment for university.
 
